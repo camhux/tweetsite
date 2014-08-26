@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style.css">
+<title>tweet site prototype</title>
+</head>
+
+<body>
+<button id="clientadd">Add a client</button>
+
+<div class="clientfield" id="template" hidden>
+	<span class="title">Client 0</span>
+	<select class="dropdown">
+		<option>5</option>
+		<option>10</option>
+	</select>
+
+	<div class="inputArea" data-seq="1">
+		<textarea class="tweet"></textarea><span class="counter">0</span><br>
+		<textarea class="tweet"></textarea><span class="counter">0</span><br>
+		<textarea class="tweet"></textarea><span class="counter">0</span><br>
+		<textarea class="tweet"></textarea><span class="counter">0</span><br>
+		<textarea class="tweet"></textarea><span class="counter">0</span><br>
+	</div>
+
+	<div class="inputArea" data-seq="2" hidden>
+		<textarea class="tweet"></textarea><span class="counter">0</span><br>
+		<textarea class="tweet"></textarea><span class="counter">0</span><br>
+		<textarea class="tweet"></textarea><span class="counter">0</span><br>
+		<textarea class="tweet"></textarea><span class="counter">0</span><br>
+		<textarea class="tweet"></textarea><span class="counter">0</span><br>
+	</div>
+
+</div>
+<BUTTON id="adder" hidden>Add</BUTTON>
+<BUTTON id="remover" hidden>Remove</button>
+</body>
+<script type="text/javascript" src="script.js"></script>
+
+</html>
